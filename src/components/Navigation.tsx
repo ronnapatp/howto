@@ -13,7 +13,7 @@ export default function Navigation() {
         <ul>
           <li>
             <Link href="/">
-              <a className={router.pathname === "/" ? "active" : null}>about</a>
+              <a className={router.pathname === "/" ? "active" : null}>What is HOWTO?</a>
             </Link>
           </li>
           <li>

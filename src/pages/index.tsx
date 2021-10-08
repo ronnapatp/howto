@@ -3,6 +3,7 @@ import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
+import Link from "next/link";
 
 export default function Index() {
   return (
@@ -13,10 +14,10 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Hi, We're Next.js & Netlify<span className="fancy">.</span>
+            Hi, this is website to find the answer<span className="fancy">.</span>
           </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
+          <span className="handle">Generate by <Link href="https://github.com/wutali/nextjs-netlify-blog-template"><a target="_blank">nextjs-netlify-blog-template</a></Link></span>
+          <h2>You can add Howto? at <Link href="https://github.com/ronnapatp/howto">github</Link>.</h2>
           <SocialList />
         </div>
       </div>
